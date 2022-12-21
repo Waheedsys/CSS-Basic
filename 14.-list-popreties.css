@@ -1,0 +1,146 @@
+/* ul li{
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-type: none;
+    list-style: upper-alpha inside;
+    
+} */
+
+/* ol li{
+     list-style-type: upper-roman;
+ list-style-type: none;} */
+
+ /* ol li {
+     list-style-type: none ;
+     list-style-position: inside;
+     background-color: hsla(120,12%,23%,0.23);
+     width: 300px;
+     border-left: solid 4px #EA7B83;
+     padding: 15px;
+     line-height: 10px;
+} */
+
+/* challenge two */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(147, 147, 231);
+}
+ol{
+    background-color: hsl(69, 79%, 15%);
+    padding: 10px;
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ol li{
+    list-style-type: none;
+    padding: 5px;
+    margin: 6px;
+    background-color: rgb(83, 105, 46);
+    color:#ffffff ;
+    text-align: center; 
+}
+.ball{
+    height: 250px;
+    width:250px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.eyes{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    background-color: black;
+}
+.eye-left{
+    /* border: 2px solid red; */
+    position:absolute;
+    left:10%;
+    top:15%;
+}
+.eye-right{
+    /* border: 2px solid gree1n; */
+    position:absolute;
+    right:10%;
+    top:15%;
+}
+.mouth{
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height: 100px;
+    width: 150px;
+    border-bottom: 5px solid black;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.body-1{
+    height: 400px;
+    width:400px;
+    background-color: white;
+    position: absolute;
+    top:75%;
+    left:50%;
+    border-radius: 70%;
+    transform: translate(-50%,-50%);
+}
+.hands{
+    background-color: black;
+    height: 150px;
+    width:6px;
+}
+.hand-left{
+    /* border: 3px solid green; */
+    position: absolute;
+    top:5%;
+    right:90%;
+    
+    transform: rotate(70deg);
+}
+.hand-right{
+  position: absolute;
+  top:5%;
+  left:90%;
+transform: rotate(290deg);
+}
+.tie-left{
+    width:0;
+    height: 0;
+    position: absolute;
+    top:5%;
+    left:47%;
+    transform: translate(-50%,-50%);
+    /* background-color: transparent; */
+    /* border:10px solid black; */
+    width: 0; 
+    height: 0; 
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+    
+    border-left: 22px solid black;
+}
+.tie-right{
+    width:0;
+    height: 0;
+    position: absolute;
+    top:5%;
+    left:52%;
+    transform: translate(-50%,-50%);
+    /* background-color: transparent; */
+    /* border:10px solid black; */
+    width: 0; 
+    height: 0; 
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+    
+    border-right: 22px solid black;
+
+}

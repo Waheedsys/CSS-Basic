@@ -1,0 +1,30 @@
+a{
+    text-decoration: none;
+    background-color: aqua;
+    color: cadetblue;
+    padding: 10px 12px ;
+    margin: 30px;
+    box-shadow: 6px 5px 3px #EB0C83 ;
+    transition: all 0.2s ease-in;
+    border-radius: 8px;
+}
+
+/* link State */
+a:link{
+    color: lawngreen;
+}
+
+/* Visited */
+ a:visited{
+color: brown;
+} 
+
+/* hover */
+a:active ,
+a:hover{ 
+        box-shadow:3px 2px 3px #EB0C83;
+    color: chocolate;
+    background-color: white;
+} 
+ /*active State */
+

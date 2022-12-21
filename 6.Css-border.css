@@ -1,0 +1,31 @@
+section{
+    border-style: dashed;
+    border-top: solid;
+    border-bottom: solid;
+}
+h1{
+    border-style: solid;
+    border-width: 6px;
+    border-color:#800f52;
+}
+p{
+    border-style: double;
+    border-width: 9px;
+}
+
+/* border shorthand */
+section{
+    /* border-style: dashed solid solid dashed; */
+    border-style: groove hidden solid;
+    border-width: 12px;
+    border-radius: 19px;
+    border: green dotted 6px;
+    background-image: url(./cat-g0ce82eb70_1920.png);
+    border-radius: 12px;
+    background-image: url(./sea-g4a28e40e7_1920.jpg);
+    border-color:#aa6f73;
+    border-radius: 19px;
+    border-width: 12px;
+    height: 600px;
+    background-size: cover ;
+}

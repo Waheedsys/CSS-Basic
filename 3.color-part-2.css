@@ -1,0 +1,29 @@
+/* RGB = Read, blue , green(0-250) */
+/* h1{
+    color: rgb(250, 250, 250);
+} */
+
+/* HSL = hue(0-360)Saturation(%) lighness(%) */
+/* h1{
+    color: hsl(90, 67%, 56%);
+} */
+
+/* HEX values = 00-ff, (first)FF = RED, (second)FF = GREEN, (third)FF = BLUE  */
+
+h1
+{
+    /* in rgba (a stands for alpha) */
+    color: rgba(255, 239, 67, 0.664);
+}
+h2{
+    color:	#ff71ce 
+    
+}
+section{
+    color: #800080;
+    background-color:#05ffa1;
+}
+p{
+    color: hsl(100, 100%, 30%);
+    background-color: #ffaaa5;
+}

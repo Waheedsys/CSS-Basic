@@ -1,0 +1,36 @@
+p{
+    color: blue;
+    text-align: right;
+    text-decoration: none;
+   /* capitalization */
+   /* text-transform: capitalize; */
+   /* upperCase */
+   /* text-transform: uppercase; */
+   /* lowerCasse */
+   /* text-transform: lowercase; */
+   
+   /* text-indent */
+   text-indent: 60px;
+
+   letter-spacing: 2px;
+   line-height: 1.6;
+   direction: rtl;
+   word-spacing: 5px;
+/* text-shadow : horizontal , vertical , blur-radius , color */
+   /* text-shadow: 1px 1px 1px grey; */
+}
+a{
+   text-decoration: underline;
+}
+
+.two{
+    
+    background-color: brown;
+    margin: 30px;
+    padding: 50px;
+    color: 	#ffa700;
+    text-indent: 10px;
+    text-shadow: 1px 2px 1.5px #ffb3ba;
+    text-align: center;
+
+}

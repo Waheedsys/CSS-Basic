@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+} 
+
+
+/* h1{
+    /* width is used contain content in fixed border */
+   /* width: fit-content;
+   border: 7px dashed blue ;   
+   margin-left: 50%;
+   margin-right: 10%;
+} */
+/* p{
+    border: 2px solid green;
+    margin-left: 29px;
+    }  */
+
+    /* padding on ind sides */
+    .one , .two{
+        width: 300px;
+        border-radius: 20px;
+        border:#540368 dotted 9px;
+        background-color: chartreuse;
+        /* padding-top: 40px;
+        border-radius: 30px;
+        padding-bottom: 120px;
+        padding-left: 40px;
+        padding-right: 50px;
+        margin-top: 60px; */
+    }
+    /* Shorthand property */
+    .one, .two {
+        padding: 60px 50px 40px 30px;
+
+    }
+
+    /* challenge */
+    .three{
+        padding: 50px ;
+        border: 12px solid red;
+        margin: 50px;
+        border-radius: 40px;
+        background-color: #00ff99;
+       
+    }

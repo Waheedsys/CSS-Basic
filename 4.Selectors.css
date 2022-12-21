@@ -1,0 +1,42 @@
+/* Element name Selector */
+body{
+    background-color: #854442 ;
+}
+/* class selectore */
+
+/* .main-heading {
+    color: rgb(78, 54, 98);
+} */
+
+/* id selector */
+/* #main-para{
+    color: 	#ff6666;
+} */
+
+/* grouping selector */
+/* .main-heading , #main-para{
+    color: aliceblue;
+} */
+
+/* universal selector */
+/* *{
+padding: 0;
+margin: 0;
+
+} */
+
+/* class selector */
+/* #fourth-para{
+    color: 	#525266;
+}
+/* id selector */
+/* .fourth-heading{
+    color: 	#ffe5a9;
+} */ 
+/* grouping selector */
+.fourth-heading ,#fourth-para{
+color: 	#7ddc1f;
+}
+
+
+

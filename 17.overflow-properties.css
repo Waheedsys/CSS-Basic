@@ -1,0 +1,11 @@
+p{
+ width: 300px;
+ height: 200px;
+ /*overflow default is visible */
+/* overflow = hidden,scroll,visible,auto */
+overflow-x: scroll;
+ overflow-y: hidden; 
+ 
+ /* overflow: auto; */
+
+}

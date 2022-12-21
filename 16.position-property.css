@@ -1,0 +1,93 @@
+/*
+h1{
+     position: relative;
+    left: 300px;
+    top: 500px; */
+
+    /* position: fixed;
+    top: 50%;
+    left: 50%;
+}
+img{
+    width: 200px;
+    position: fixed;
+} */
+/* 
+section{
+    position:relative;
+    
+} */
+/* position absolute */
+/* for position absolute parent has to be relative */
+/* img{
+width: 500px;
+position: absolute;
+z-index: -1;
+} */
+
+/* sticky */
+ 
+*{
+    padding: 0;  
+    margin: 0;
+  }
+  /* Anchor tag */
+  /* a{
+     text-decoration: none; 
+     color: aliceblue;
+     background-color: gray;
+     padding: 10px 30px;
+     margin: 20px;
+     display: inline-block;
+  
+  } */
+  
+  /* navigation link*/
+  .unorder{
+      position: sticky;
+      top: 0;
+      text-align: center;
+      background-color: rgb(214, 108, 108);
+      margin: 20px;
+      padding: 20px;
+      list-style: none;
+      
+      
+    }
+    
+    .unorder li{
+        display: inline-block; 
+        padding: 10px 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: capitalize;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        transition: all 0.5s ease-in-out;
+        border-radius: 15px;
+        box-shadow:2px 2px 3px white ;  
+        
+        
+    }
+    
+    a:hover{
+        background-color: rgb(69, 36, 83);
+    }
+    a:active{
+      background-color:  black;
+      transition: all 0.2s ease-in;
+  }
+   
+
+
+  
+  
+
+
+
+
+
+

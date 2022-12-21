@@ -1,0 +1,12 @@
+/* color name */
+h2{
+    color: fuchsia;
+    background-color: grey;
+    /* border can be solid or dotted */
+    border: 1px solid;
+} 
+p{
+    color: darkviolet;
+    background-color: darksalmon;
+    border: 6px dotted;
+}

@@ -1,0 +1,7 @@
+article{
+    /* max-width is used for smaller screen can go below without scrollbar*/
+    /* min-width is used for bigger screen cannot go below the mentioned value */
+    max-width: 900px;
+    height: 400px;
+    background-color: teal;
+}
